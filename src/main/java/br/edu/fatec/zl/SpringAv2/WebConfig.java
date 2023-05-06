@@ -1,5 +1,6 @@
 package br.edu.fatec.zl.SpringAv2;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.ViewResolver;
@@ -25,6 +26,7 @@ public class WebConfig implements WebMvcConfigurer{
 		registry.addViewController("/").setViewName("index");
 	}
 	
+	@Bean
 	public ViewResolver internalResourceViewResolver() {
 		InternalResourceViewResolver bean = new InternalResourceViewResolver();
 		bean.setViewClass(JstlView.class);
