@@ -1,18 +1,18 @@
 package br.edu.fatec.zl.SpringAv2.model;
 
 public class Grupo {
-	private int time;
-	private int grupo;
-	public int getTime() {
+	private Time time;
+	private String grupo;
+	public Time getTime() {
 		return time;
 	}
-	public void setTime(int time) {
+	public void setTime(Time time) {
 		this.time = time;
 	}
-	public int getGrupo() {
+	public String getGrupo() {
 		return grupo;
 	}
-	public void setGrupo(int grupo) {
+	public void setGrupo(String grupo) {
 		this.grupo = grupo;
 	}
 	@Override

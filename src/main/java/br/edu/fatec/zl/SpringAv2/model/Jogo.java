@@ -1,22 +1,22 @@
 package br.edu.fatec.zl.SpringAv2.model;
 
 public class Jogo {
-	private int timeA;
-	private int timeB;
+	private String timeA;
+	private String timeB;
 	private int golsA;
 	private int golsB;
 	private int rodada;
 	private String data;
-	public int getTimeA() {
+	public String getTimeA() {
 		return timeA;
 	}
-	public void setTimeA(int timeA) {
+	public void setTimeA(String timeA) {
 		this.timeA = timeA;
 	}
-	public int getTimeB() {
+	public String getTimeB() {
 		return timeB;
 	}
-	public void setTimeB(int timeB) {
+	public void setTimeB(String timeB) {
 		this.timeB = timeB;
 	}
 	public int getGolsA() {
